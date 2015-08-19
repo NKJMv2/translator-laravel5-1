@@ -1,0 +1,36 @@
+{
+	"name": "ngocnh/translator",
+	"description": "Laravel translator for multilingual Eloquent objects.",
+	"keywords": ["translations", "translator", "laravel", "language", "multilingual", "translation"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Ngoc Nguyen",
+			"email": "me@ngocnh.info"
+		}
+	],
+	"require": {
+		"php": ">=5.5.9",
+		"illuminate/support": "5.0.*|5.1.*"
+	},
+	"require-dev": {
+		"graham-campbell/testbench": "~2.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Ngocnh\\Translator\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Ngocnh\\Tests\\Translator\\": "tests/"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "2.0-dev"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
